@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+
+    .search-bar input {
+        width: 200px;
+    }
+
+    .service-cards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .packages {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .package {
+        width: 100%;
+    }
+}
